@@ -1,7 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "0.0.0",
   "name": "alucard-syntax",
   "description": "Alucard syntax theme",
+  "repository": "https://github.com/johanvx/inkdrop-alucard-syntax",
   "theme": "syntax",
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"
