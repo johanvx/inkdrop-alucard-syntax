@@ -10,8 +10,8 @@
 
 ## Screenshots
 
-![Screenshots 1](./screenshots/1.png)
-![Screenshots 2](./screenshots/2.png)
+![Screenshots 1](https://github.com/johanvx/inkdrop-alucard-syntax/blob/master/screenshots/1.png)
+![Screenshots 2](https://github.com/johanvx/inkdrop-alucard-syntax/blob/master/screenshots/2.png)
 
 ## Colour palette
 
