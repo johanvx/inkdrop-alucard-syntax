@@ -8,6 +8,16 @@
 
 **Alucard** is a light theme highly inspired by **[Dracula]** theme.
 
+## Installation
+
+Using `ipm` provided by Inkdrop (after `Install Shell Commands`):
+
+```bash
+ipm install alucard-syntax
+```
+
+or go to `Preferences > Plugins > Install` and search for `alucard-syntax`.
+
 ## Screenshots
 
 ![Screenshots 1](https://github.com/johanvx/inkdrop-alucard-syntax/blob/master/screenshots/1.png)
