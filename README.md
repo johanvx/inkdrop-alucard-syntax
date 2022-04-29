@@ -6,7 +6,7 @@
 
 ## One-line introduction
 
-**Alucard** is a light theme highly inspired by [**Dracula**] theme.
+**Alucard** is a light theme highly inspired by **[Dracula]** theme.
 
 ## Screenshots
 
