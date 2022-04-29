@@ -4,70 +4,70 @@
 
   .CodeMirror {
     // Background color of main window
-    background-color: #FFFFFF;
-    color: @base02;
+    background-color: @base00; // alucard-background
+    color: @base01; // alucard-foreground
   }
   .CodeMirror-scroll {
     // Color of otherwise un-styled text
-    color: @base02;
+    color: @base01; // alucard-selection
   }
   .CodeMirror-gutters {
     // Gutter to the left
-    background-color: #FFFFFF;
+    background-color: @base00; // alucard-foreground
   }
   .CodeMirror-linenumber {
     // Line numbers in the gutter
-    color: @base03;
-    opacity: 0.6;
+    color: @base03; // alucard-comment
+    // opacity: 0.6;
   }
   .CodeMirror-selected {
     // Highlighed text
-    background-color: @base05;
+    background-color: @base02; // alucard-selection
   }
   .CodeMirror-focused .CodeMirror-selected {
     // Highlighed text
-    background-color: @base04;
+    background-color: @base02; // alucard-selection
   }
   .CodeMirror-cursor {
     // The cursor
-    border-left: 1px solid @base00;
+    border-left: 1px solid @base01; // alucard-foreground
   }
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
-    background: @base03 !important;
-    border-bottom: 1px solid @base08 !important;
+    background: @base01 !important; // alucard-foreground
+    border-bottom: 1px solid @base06 !important; // alucard-green
   }
   .CodeMirror-foldgutter-open:after {
     // Those little arrows in the gutter
-    color: @base03;
+    color: @base03; // alucard-comment
   }
   .CodeMirror-foldgutter-folded:after {
     // The arrows after you collapse code
-    color: @base03;
+    color: @base03; // alucard-comment
   }
   .CodeMirror.over-gutter,
   .CodeMirror-activeline {
     .CodeMirror-foldgutter-open:after {
       // Arrows when hovering on the gutter
-      color: @base03;
+      color: @base01; // alucard-foreground
     }
   }
   .CodeMirror-foldmarker {
     // The [...] marking collapsed code
-    border-color: @base03;
-    background-color: @base03;
-    color: @base02;
+    border-color: @base0A; // alucard-pink
+    // background-color: ;
+    color: @base0A; // alucard-pink
   }
   .CodeMirror .CodeMirror-linewidget img.inline-widget {
     background: rgba(0,0,0,0.05);
   }
   .CodeMirror-searching {
     // Ctrl + F results
-    background-color: @base0D;
+    background-color: @base06; // alucard-green
     // Selected result
     &.searching-current-match {
-      background-color: @base0C;
+      background-color: @base05; // alucard-orange
     }
   }
 
@@ -76,90 +76,92 @@
   .CodeMirror {
     .cm-atom,
     .cm-formatting-list.cm-variable-3 {
-      color: @base0C;
+      color: @base09; // alucard-cyan
     }
 
     .cm-keyword,
     .cm-formatting-list.cm-variable-2 {
-      color: @base0A;
+      color: @base09; // alucard-cyan
     }
 
     .cm-url,
     .cm-string,
     .cm-string-2,
     .cm-hr {
-      color: @base09;
+      color: @base09; // alucard-cyan
     }
     .cm-number,
     .cm-attribute,
     .cm-plus {
-      color: @base0A;
+      color: @base08; // alucard-purple
     }
     .cm-def,
     .cm-property {
-      color: @base0C;
+      color: @base08; // alucard-purple
     }
     .cm-variable {
-      color: @base0A;
+      color: @base01; // alucard-foreground
     }
     .cm-operator,
     .cm-meta,
     .cm-bracket {
-      color: @base0E;
+      color: @base01; // alucard-foreground
     }
     .cm-comment {
-      color: @base04;
-      font-style: italic;
+      color: @base03; // alucard-comment
+      // font-style: italic;
     }
     .cm-error,
     .cm-minus {
-      color: @base0B;
+      color: @base04; // alucard-red
     }
     .cm-formatting-header {
       opacity: 0.3;
     }
     .cm-header {
-      color: @base0A;
+      color: @base08; // alucard-purple
+      // font-style: bold;
     }
     .cm-link {
-      color: @base0E;
-      text-underline-position: under;
+      color: @base0A; // alucard-pink
+      // text-underline-position: under;
     }
     .cm-rangeinfo {
-      color: @base0C;
+      color: @base08; // alucard-purple
     }
     .cm-qualifier,
     .cm-builtin,
     .cm-tag {
-      color: @base08;
+      color: @base0A; // alucard-pink
     }
     .cm-quote {
-      color: @base0F;
+      color: @base07; // alucard-blue
       font-style: italic;
     }
     .cm-whitespace::before {
-      color: @base04;
-      opacity: 0.4;
+      color: @base03; // alucard-comment
+      // opacity: 0.4;
     }
     .cm-formatting-quote, .cm-formatting-strong, .cm-formatting-em {
       opacity: 0.6;
     }
     .cm-strong {
-      color: @base0B;
+      color: @base05; // alucard-orange
     }
     .cm-em {
-      color: @base0C;
+      color: @base07; // alucard-blue
+      font-style: italic;
     }
 
     // carriage return
     .CodeMirror-code > div > pre > span::after, .CodeMirror-line > span::after {
-      color: @base00;
+      color: @base00; // alucard-background
       opacity: 0.4;
     }
 
     .cm-inline-code {
       background: rgba(0, 0, 0, 0.02);
-      color: @base03;
+      color: @base06; // alucard-green
     }
 
     .gfm-codeblock-bg.CodeMirror-linebackground {
@@ -167,12 +169,12 @@
     }
 
     .cm-table-sep, .table-row.table-row-1 {
-      color: @base0E;
+      color: @base03; // alucard-comment
     }
   }
 
   /* Active Line Highlight support */
   .CodeMirror-activeline-background, .CodeMirror-activeline-gutter {
-    background-color: fade(@base06, 70%) !important;
+    background-color: fade(@base02, 70%) !important; // alucard-selection
   }
 }
