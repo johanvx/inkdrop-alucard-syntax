@@ -42,6 +42,8 @@ or go to `Preferences > Plugins > Install` and search for `alucard-syntax`.
 | purple | #956BD1 |
 | cyan | #6DCBDF |
 | pink | #E55FAC |
+| white | #FFFFFF |
+| black | #000000 |
 
 ## Origin of the name
 
