@@ -52,33 +52,36 @@
 .editor .CodeMirror-searching.searching-current-match {
   background-color: #EEA75B;
 }
-.editor .CodeMirror .cm-atom,
+.editor .CodeMirror .cm-formatting-list.cm-variable-2,
 .editor .CodeMirror .cm-formatting-list.cm-variable-3 {
   color: #6DCBDF;
 }
-.editor .CodeMirror .cm-keyword,
-.editor .CodeMirror .cm-formatting-list.cm-variable-2 {
-  color: #6DCBDF;
+.editor .CodeMirror .cm-operator,
+.editor .CodeMirror .cm-keyword {
+  color: #E55FAC;
 }
 .editor .CodeMirror .cm-url,
 .editor .CodeMirror .cm-string,
 .editor .CodeMirror .cm-string-2,
 .editor .CodeMirror .cm-hr {
-  color: #6DCBDF;
+  color: #5555FF;
 }
-.editor .CodeMirror .cm-number,
+.editor .CodeMirror .cm-qualifier,
 .editor .CodeMirror .cm-attribute,
 .editor .CodeMirror .cm-plus {
+  color: #1CC647;
+}
+.editor .CodeMirror .cm-atom,
+.editor .CodeMirror .cm-number {
   color: #956BD1;
+}
+.editor .CodeMirror .cm-property {
+  color: #1CC647;
 }
 .editor .CodeMirror .cm-def,
-.editor .CodeMirror .cm-property {
-  color: #956BD1;
-}
 .editor .CodeMirror .cm-variable {
   color: #282A36;
 }
-.editor .CodeMirror .cm-operator,
 .editor .CodeMirror .cm-meta,
 .editor .CodeMirror .cm-bracket {
   color: #282A36;
@@ -102,8 +105,9 @@
 .editor .CodeMirror .cm-rangeinfo {
   color: #956BD1;
 }
-.editor .CodeMirror .cm-qualifier,
-.editor .CodeMirror .cm-builtin,
+.editor .CodeMirror .cm-builtin {
+  color: #6DCBDF;
+}
 .editor .CodeMirror .cm-tag {
   color: #E55FAC;
 }
@@ -132,11 +136,10 @@
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-inline-code {
-  background: rgba(0, 0, 0, 0.02);
   color: #1CC647;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
-  background: rgba(0, 0, 0, 0.01);
+  background: #ffffff;
 }
 .editor .CodeMirror .cm-table-sep,
 .editor .CodeMirror .table-row.table-row-1 {

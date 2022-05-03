@@ -74,35 +74,38 @@
   /* All 'dem swatches */
 
   .CodeMirror {
-    .cm-atom,
+    .cm-formatting-list.cm-variable-2,
     .cm-formatting-list.cm-variable-3 {
       color: @base09; // alucard-cyan
     }
 
-    .cm-keyword,
-    .cm-formatting-list.cm-variable-2 {
-      color: @base09; // alucard-cyan
+    .cm-operator,
+    .cm-keyword {
+      color: @base0A; // alucard-pink
     }
 
     .cm-url,
     .cm-string,
     .cm-string-2,
     .cm-hr {
-      color: @base09; // alucard-cyan
+      color: @base07; // alucard-blue
     }
-    .cm-number,
+    .cm-qualifier,
     .cm-attribute,
     .cm-plus {
+      color: @base06; // alucard-green
+    }
+    .cm-atom,
+    .cm-number {
       color: @base08; // alucard-purple
+    }
+    .cm-property {
+      color: @base06; // alucard-green
     }
     .cm-def,
-    .cm-property {
-      color: @base08; // alucard-purple
-    }
     .cm-variable {
       color: @base01; // alucard-foreground
     }
-    .cm-operator,
     .cm-meta,
     .cm-bracket {
       color: @base01; // alucard-foreground
@@ -129,8 +132,9 @@
     .cm-rangeinfo {
       color: @base08; // alucard-purple
     }
-    .cm-qualifier,
-    .cm-builtin,
+    .cm-builtin{
+        color: @base09; // alucard-cyan
+    }
     .cm-tag {
       color: @base0A; // alucard-pink
     }
@@ -160,12 +164,12 @@
     }
 
     .cm-inline-code {
-      background: rgba(0, 0, 0, 0.02);
+      // background: rgba(0, 0, 0, 0.02);
       color: @base06; // alucard-green
     }
 
     .gfm-codeblock-bg.CodeMirror-linebackground {
-      background: rgba(0, 0, 0, 0.01);
+      background: #ffffff;
     }
 
     .cm-table-sep, .table-row.table-row-1 {
