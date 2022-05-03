@@ -3,120 +3,120 @@
   /* Active Line Highlight support */
 }
 .editor .CodeMirror {
-  background-color: #F8F8F2;
-  color: #282A36;
+  background-color: #f8f8f2;
+  color: #282a36;
 }
 .editor .CodeMirror-scroll {
-  color: #282A36;
+  color: #282a36;
 }
 .editor .CodeMirror-gutters {
-  background-color: #F8F8F2;
+  background-color: #f8f8f2;
 }
 .editor .CodeMirror-linenumber {
-  color: #9EAEE0;
+  color: #9eaee0;
 }
 .editor .CodeMirror-selected {
-  background-color: #E4E7FA;
+  background-color: #e4e7fa;
 }
 .editor .CodeMirror-focused .CodeMirror-selected {
-  background-color: #E4E7FA;
+  background-color: #e4e7fa;
 }
 .editor .CodeMirror-cursor {
-  border-left: 1px solid #282A36;
+  border-left: 1px solid #282a36;
 }
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
-  background: #282A36 !important;
-  border-bottom: 1px solid #1CC647 !important;
+  background: #282a36 !important;
+  border-bottom: 1px solid #1cc647 !important;
 }
 .editor .CodeMirror-foldgutter-open:after {
-  color: #9EAEE0;
+  color: #9eaee0;
 }
 .editor .CodeMirror-foldgutter-folded:after {
-  color: #9EAEE0;
+  color: #9eaee0;
 }
 .editor .CodeMirror.over-gutter .CodeMirror-foldgutter-open:after,
 .editor .CodeMirror-activeline .CodeMirror-foldgutter-open:after {
-  color: #282A36;
+  color: #282a36;
 }
 .editor .CodeMirror-foldmarker {
-  border-color: #E55FAC;
-  color: #E55FAC;
+  border-color: #e55fac;
+  color: #e55fac;
 }
 .editor .CodeMirror .CodeMirror-linewidget img.inline-widget {
   background: rgba(0, 0, 0, 0.05);
 }
 .editor .CodeMirror-searching {
-  background-color: #1CC647;
+  background-color: #1cc647;
 }
 .editor .CodeMirror-searching.searching-current-match {
-  background-color: #EEA75B;
+  background-color: #eea75b;
 }
 .editor .CodeMirror .cm-formatting-list.cm-variable-2,
 .editor .CodeMirror .cm-formatting-list.cm-variable-3 {
-  color: #6DCBDF;
+  color: #6dcbdf;
 }
 .editor .CodeMirror .cm-operator,
 .editor .CodeMirror .cm-keyword {
-  color: #E55FAC;
+  color: #e55fac;
 }
 .editor .CodeMirror .cm-url,
 .editor .CodeMirror .cm-string,
 .editor .CodeMirror .cm-string-2,
 .editor .CodeMirror .cm-hr {
-  color: #5555FF;
+  color: #5555ff;
 }
 .editor .CodeMirror .cm-qualifier,
 .editor .CodeMirror .cm-attribute,
 .editor .CodeMirror .cm-plus {
-  color: #1CC647;
+  color: #1cc647;
 }
 .editor .CodeMirror .cm-atom,
 .editor .CodeMirror .cm-number {
-  color: #956BD1;
+  color: #956bd1;
 }
 .editor .CodeMirror .cm-property {
-  color: #1CC647;
+  color: #1cc647;
 }
 .editor .CodeMirror .cm-def,
 .editor .CodeMirror .cm-variable {
-  color: #282A36;
+  color: #282a36;
 }
 .editor .CodeMirror .cm-meta,
 .editor .CodeMirror .cm-bracket {
-  color: #282A36;
+  color: #282a36;
 }
 .editor .CodeMirror .cm-comment {
-  color: #9EAEE0;
+  color: #9eaee0;
 }
 .editor .CodeMirror .cm-error,
 .editor .CodeMirror .cm-minus {
-  color: #EE4444;
+  color: #ee4444;
 }
 .editor .CodeMirror .cm-formatting-header {
   opacity: 0.3;
 }
 .editor .CodeMirror .cm-header {
-  color: #956BD1;
+  color: #956bd1;
 }
 .editor .CodeMirror .cm-link {
-  color: #E55FAC;
+  color: #e55fac;
 }
 .editor .CodeMirror .cm-rangeinfo {
-  color: #956BD1;
+  color: #956bd1;
 }
 .editor .CodeMirror .cm-builtin {
-  color: #6DCBDF;
+  color: #6dcbdf;
 }
 .editor .CodeMirror .cm-tag {
-  color: #E55FAC;
+  color: #e55fac;
 }
 .editor .CodeMirror .cm-quote {
-  color: #5555FF;
+  color: #5555ff;
   font-style: italic;
 }
 .editor .CodeMirror .cm-whitespace::before {
-  color: #9EAEE0;
+  color: #9eaee0;
 }
 .editor .CodeMirror .cm-formatting-quote,
 .editor .CodeMirror .cm-formatting-strong,
@@ -124,26 +124,26 @@
   opacity: 0.6;
 }
 .editor .CodeMirror .cm-strong {
-  color: #EEA75B;
+  color: #eea75b;
 }
 .editor .CodeMirror .cm-em {
-  color: #5555FF;
+  color: #5555ff;
   font-style: italic;
 }
 .editor .CodeMirror .CodeMirror-code > div > pre > span::after,
 .editor .CodeMirror .CodeMirror-line > span::after {
-  color: #F8F8F2;
+  color: #f8f8f2;
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-inline-code {
-  color: #1CC647;
+  color: #1cc647;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
   background: #ffffff;
 }
 .editor .CodeMirror .cm-table-sep,
 .editor .CodeMirror .table-row.table-row-1 {
-  color: #9EAEE0;
+  color: #9eaee0;
 }
 .editor .CodeMirror-activeline-background,
 .editor .CodeMirror-activeline-gutter {
