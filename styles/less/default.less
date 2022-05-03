@@ -4,70 +4,70 @@
 
   .CodeMirror {
     // Background color of main window
-    background-color: @base00; // alucard-background
-    color: @base01; // alucard-foreground
+    background-color: @alucard-background; // alucard-background
+    color: @alucard-foreground; // alucard-foreground
   }
   .CodeMirror-scroll {
     // Color of otherwise un-styled text
-    color: @base01; // alucard-selection
+    color: @alucard-foreground; // alucard-selection
   }
   .CodeMirror-gutters {
     // Gutter to the left
-    background-color: @base00; // alucard-foreground
+    background-color: @alucard-background; // alucard-foreground
   }
   .CodeMirror-linenumber {
     // Line numbers in the gutter
-    color: @base03; // alucard-comment
+    color: @alucard-comment; // alucard-comment
     // opacity: 0.6;
   }
   .CodeMirror-selected {
     // Highlighed text
-    background-color: @base02; // alucard-selection
+    background-color: @alucard-selection; // alucard-selection
   }
   .CodeMirror-focused .CodeMirror-selected {
     // Highlighed text
-    background-color: @base02; // alucard-selection
+    background-color: @alucard-selection; // alucard-selection
   }
   .CodeMirror-cursor {
     // The cursor
-    border-left: 1px solid @base01; // alucard-foreground
+    border-left: 1px solid @alucard-foreground; // alucard-foreground
   }
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
-    background: @base01 !important; // alucard-foreground
-    border-bottom: 1px solid @base06 !important; // alucard-green
+    background: @alucard-foreground !important; // alucard-foreground
+    border-bottom: 1px solid @alucard-green !important; // alucard-green
   }
   .CodeMirror-foldgutter-open:after {
     // Those little arrows in the gutter
-    color: @base03; // alucard-comment
+    color: @alucard-comment; // alucard-comment
   }
   .CodeMirror-foldgutter-folded:after {
     // The arrows after you collapse code
-    color: @base03; // alucard-comment
+    color: @alucard-comment; // alucard-comment
   }
   .CodeMirror.over-gutter,
   .CodeMirror-activeline {
     .CodeMirror-foldgutter-open:after {
       // Arrows when hovering on the gutter
-      color: @base01; // alucard-foreground
+      color: @alucard-foreground; // alucard-foreground
     }
   }
   .CodeMirror-foldmarker {
     // The [...] marking collapsed code
-    border-color: @base0A; // alucard-pink
+    border-color: @alucard-pink; // alucard-pink
     // background-color: ;
-    color: @base0A; // alucard-pink
+    color: @alucard-pink; // alucard-pink
   }
   .CodeMirror .CodeMirror-linewidget img.inline-widget {
     background: rgba(0,0,0,0.05);
   }
   .CodeMirror-searching {
     // Ctrl + F results
-    background-color: @base06; // alucard-green
+    background-color: @alucard-green; // alucard-green
     // Selected result
     &.searching-current-match {
-      background-color: @base05; // alucard-orange
+      background-color: @alucard-orange; // alucard-orange
     }
   }
 
@@ -76,109 +76,109 @@
   .CodeMirror {
     .cm-formatting-list.cm-variable-2,
     .cm-formatting-list.cm-variable-3 {
-      color: @base09; // alucard-cyan
+      color: @alucard-cyan; // alucard-cyan
     }
 
     .cm-operator,
     .cm-keyword {
-      color: @base0A; // alucard-pink
+      color: @alucard-pink; // alucard-pink
     }
 
     .cm-url,
     .cm-string,
     .cm-string-2,
     .cm-hr {
-      color: @base07; // alucard-blue
+      color: @alucard-blue; // alucard-blue
     }
     .cm-qualifier,
     .cm-attribute,
     .cm-plus {
-      color: @base06; // alucard-green
+      color: @alucard-green; // alucard-green
     }
     .cm-atom,
     .cm-number {
-      color: @base08; // alucard-purple
+      color: @alucard-purple; // alucard-purple
     }
     .cm-property {
-      color: @base06; // alucard-green
+      color: @alucard-green; // alucard-green
     }
     .cm-def,
     .cm-variable {
-      color: @base01; // alucard-foreground
+      color: @alucard-foreground; // alucard-foreground
     }
     .cm-meta,
     .cm-bracket {
-      color: @base01; // alucard-foreground
+      color: @alucard-foreground; // alucard-foreground
     }
     .cm-comment {
-      color: @base03; // alucard-comment
+      color: @alucard-comment; // alucard-comment
       // font-style: italic;
     }
     .cm-error,
     .cm-minus {
-      color: @base04; // alucard-red
+      color: @alucard-red; // alucard-red
     }
     .cm-formatting-header {
       opacity: 0.3;
     }
     .cm-header {
-      color: @base08; // alucard-purple
+      color: @alucard-purple; // alucard-purple
       // font-style: bold;
     }
     .cm-link {
-      color: @base0A; // alucard-pink
+      color: @alucard-pink; // alucard-pink
       // text-underline-position: under;
     }
     .cm-rangeinfo {
-      color: @base08; // alucard-purple
+      color: @alucard-purple; // alucard-purple
     }
     .cm-builtin{
-        color: @base09; // alucard-cyan
+        color: @alucard-cyan; // alucard-cyan
     }
     .cm-tag {
-      color: @base0A; // alucard-pink
+      color: @alucard-pink; // alucard-pink
     }
     .cm-quote {
-      color: @base07; // alucard-blue
+      color: @alucard-blue; // alucard-blue
       font-style: italic;
     }
     .cm-whitespace::before {
-      color: @base03; // alucard-comment
+      color: @alucard-comment; // alucard-comment
       // opacity: 0.4;
     }
     .cm-formatting-quote, .cm-formatting-strong, .cm-formatting-em {
       opacity: 0.6;
     }
     .cm-strong {
-      color: @base05; // alucard-orange
+      color: @alucard-orange; // alucard-orange
     }
     .cm-em {
-      color: @base07; // alucard-blue
+      color: @alucard-blue; // alucard-blue
       font-style: italic;
     }
 
     // carriage return
     .CodeMirror-code > div > pre > span::after, .CodeMirror-line > span::after {
-      color: @base00; // alucard-background
+      color: @alucard-background; // alucard-background
       opacity: 0.4;
     }
 
     .cm-inline-code {
       // background: rgba(0, 0, 0, 0.02);
-      color: @base06; // alucard-green
+      color: @alucard-green; // alucard-green
     }
 
     .gfm-codeblock-bg.CodeMirror-linebackground {
-      background: #ffffff;
+      background: @alucard-white;
     }
 
     .cm-table-sep, .table-row.table-row-1 {
-      color: @base03; // alucard-comment
+      color: @alucard-comment; // alucard-comment
     }
   }
 
   /* Active Line Highlight support */
   .CodeMirror-activeline-background, .CodeMirror-activeline-gutter {
-    background-color: fade(@base02, 70%) !important; // alucard-selection
+    background-color: fade(@alucard-selection, 70%) !important; // alucard-selection
   }
 }
